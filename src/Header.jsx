@@ -2,15 +2,8 @@ function Header() {
     return(
         <header>
             <h1>ShuttleHub</h1>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/services">Services</a></li>  
-                    <li><a href="/contact">Contact Us</a></li>
-            
-                </ul>
-            </nav>
+            <p>Welcome to ShuttleHub, your one-stop solution for all your shuttle needs!</p>
+            <p>Login to access your account and manage your shuttle services.</p>
             <hr></hr>
         </header>
     )

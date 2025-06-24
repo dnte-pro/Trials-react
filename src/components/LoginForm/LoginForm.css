@@ -1,7 +1,9 @@
 .wrapper{
     width: 420px;
+    height: 100%;
     background : slateblue;
     color: white;
+    justify-items: center;
 }
 
 .wrapper h1{
@@ -11,22 +13,24 @@
 }
 .wrapper .input-box{
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 50px;
     background: salmon;
-    margin:30px 0;;
+    margin:30px 0;
+    border-radius: 60px;
 }
 
 .input-box input{
-    width: 100%;
+    width: 80%;
     height: 100%;
     background: transparent;
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 40px;
+    border-radius: 60px;
     font-size: 16px;
-    color: #fff;
+    color: #4e0f0f;
+    justify-content: center;
 }
 
 input-box input::placeholder {
@@ -35,7 +39,7 @@ input-box input::placeholder {
 
 .input-box .icon {
     position: absolute; 
-    right: 20px;
+    right: 40px;
     top: 50px;
     transform: translateY(-50%);
     font-size: 16px;
