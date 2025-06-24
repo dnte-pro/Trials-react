@@ -5,9 +5,7 @@ import LoginForm from './components/LoginForm/LoginForm.jsx';
 function App() {
   return (
     <>
-      <Header />
       <LoginForm />    
-      <Footer />
     </>
   );
 }
