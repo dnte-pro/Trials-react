@@ -7,7 +7,19 @@ const LoginForm = () => {
                       
                 <div className="wrapper">
                     <form action="">
-                        <h1>Login</h1>
+                        <h1>Login with</h1>
+                        <div className='social-login'>
+                            <button className='social-button'>
+                                <img src='google.svg' alt='Google' className='social-icon'/>
+                                 Google
+                            </button>
+                            <button className='social-button'>
+                                <img src="apple.svg" alt="Apple" className='social-icon' />
+                                Apple
+                            </button>
+                        </div>
+                        <p className="separator"><span>or</span></p>
+
                         <div className="input-box">
                           <input type="text" placeholder="Username" required  />
                             <FaUser className="icon"/>                         
