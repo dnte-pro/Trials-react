@@ -1,7 +1,7 @@
-import './LoginForm.css'
+import './Register.css'
 import { FaUser, FaLock } from "react-icons/fa";
 
-const LoginForm = () => {
+const Register = () => {
     return (
         <div className="login-form">
                       
@@ -36,7 +36,7 @@ const LoginForm = () => {
 
                         <button type="submit">Login</button>
                         <div className="register-link">
-                            <p>Don't have an account? <a href="Register">Register</a></p>
+                            <p>Don't have an account? <a href="#">Register</a></p>
                         </div>
                     </form>  
                 </div>
@@ -44,4 +44,4 @@ const LoginForm = () => {
     );
 }
 
-export default LoginForm;
+export default Register;
